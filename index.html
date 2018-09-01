@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style2.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 
   <title>Document</title>
@@ -13,23 +14,22 @@
 
 <body>
   <main>
-    <div class="titlelink">
-      <a href="https://github.com/dashboard"><img src="assets/github.png" alt="github" /></a>
-      <a href="https://stackoverflow.com/users/edit/10178617"><img src="assets/overflow.png" alt="overflow" /></a>
-      <a href="https://mail.google.com/mail/u/0/#inbox?compose=1654b22136a0a12b"><img src="assets/email.png" alt="email"/></a>
-      <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><img src="assets/linkedin.png" alt="linkedin" /></a>
+
+    <div class="grid center titlelink">
+      <div class="gridtitle one"><a href="https://github.com/dashboard"><img src="assets/github.png" alt="github" /></a></div>
+      <div class="gridtitle two"><a href="https://stackoverflow.com/users/edit/10178617"><img src="assets/overflow.png" alt="overflow"
+          /></a></div>
+      <div class="gridtitle three"><a href="https://mail.google.com/mail/u/0/#inbox?compose=1654b22136a0a12b"><img src="assets/email.png"
+            alt="email" /></a></div>
+      <div class="gridtitle four"><a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><img src="assets/linkedin.png"
+            alt="linkedin" /></a></div>
     </div>
 
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+    <p class="grid name">Yoonsub Lee</p>
 
-    <p class="name">Yoonsub Lee</p>
+    <h1 class="grid title1">Software Developer "Wanna be"</h1>
 
-    <h1 class="title1">Software Developer "Wanna be"</h1>
-
-    <div class="shortintro">
+    <div class="grid shortintro">
       <p>Hello, my name is Yoonsub Lee and I am currently living in Lawrenceville, GA. </p>
       <p>I am currently studying to become a full-stack development.</p>
       <p>Before deciding to learn to become a full-stack developer.</p>
@@ -41,25 +41,29 @@
       <p>Ever since, I have always wanted to create a world of my own.</p>
     </div>
 
-
-    <div class="me">
+    <div class="grid center me">
       <img src="assets/me.jpg" />
-
     </div>
 
-    <div class="bottom">
 
-      <p class="work">See My Work <img id="arrow" src="assets/arrow.png" /></p>
 
-      <div class="bot">
+    <div class="sub bottom">
+      <div class="layer">
+        <div class="grid work">
+          <p class="subgridstyle work">See My Work<img src="assets/arrow.png" /></p>
+        </div>
+
         <div class="bot greygrid">
-          <div class = "imgone"><img style="float: left; margin: 15px 60px 15px 30px; width: 200px; height 150px;" src="assets/SMW1.PNG" /></div>
-          <div class = "imgtwo"><img style="float: left; margin: 15px 60px 15px 60px; width: 200px; height 150px;" src="assets/SMW2.PNG" /></div>
-          <div class = "imgthr"><img style="float: left; margin: 15px 30px 15px 60px; width: 200px; height 150px;" src="assets/SMW3.jpg" /></div>
-      </div>
+          <div class="greygrid imgone"><img src="assets/SMW1.PNG" /></div>
+          <div class="greygrid imgtwo"><img src="assets/SMW2.PNG" /></div>
+          <div class="greygrid imgthr"><img src="assets/SMW3.jpg" /></div>
+        </div>
 
-      </div>
+        <div class="grid center footer">
+          <p>@Yoonsub Lee. Allrights reserverd<br/>Made in Atlanta</p>
+        </div>
     </div>
+  </div>
   </main>
 </body>
 

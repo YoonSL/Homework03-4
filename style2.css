@@ -1,0 +1,138 @@
+body{
+    height:100%;
+}
+
+main{
+    display:grid;
+    height:100vh;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: 1fr;
+    grid-gap:20px;
+
+}
+
+.grid{
+    display:grid;
+    height:100%;
+    justify-content:left;
+    align-items:left;
+}
+.titlelink{
+    display:grid;
+    height:100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4,30px);
+    grid-gap: 10px;
+}
+.gridtitle{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+.me img{
+    transform: rotate(270deg);
+    z-index: 1;
+    border: solid 3px;
+    border-color:#2c5fa8;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-top: 50px;
+}
+
+.greygrid img{
+    width:250px;
+    height:150px;
+}
+.bot{
+    display:grid;
+    grid-template-rows:repeat(3,1fr);
+    grid-template-columns:1fr;
+    grid-gap: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.greygrid{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.me{
+    display:grid;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+}
+
+.work{
+    margin:0px;
+    border-bottom:2px solid white;
+}
+.bottom{
+    background-image:url(assets/bckgrnd.png);
+}
+.layer{
+    background-color:rgba(128, 128, 128,.3);
+    
+
+}
+
+.center{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+.work p{
+    margin: 15px;
+    margin-top:10px;
+    border-bottom:0px;
+}
+.footer{
+    border-top:2px solid white;
+    text-align: center;
+    color:white;
+}
+.footer p{
+    font-family: 'Open Sans', sans-serif;
+    margin:15px;
+    font-size:10px;
+    font-weight:bold;
+}
+
+.work p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+    color: #FFFFFF;
+}
+
+.work img{
+    position:relative;
+    left:8px;
+    top:5px;
+}
+.title1{
+    display:grid;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:15px;
+    margin-top:5px;
+    font-size:20px;
+    font-weight:bolder;
+}
+.name{
+    font-size: 25px;
+    line-height: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.shortintro{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    line-height: 18px;
+}
