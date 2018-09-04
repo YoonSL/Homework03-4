@@ -8,6 +8,7 @@ main{
     height:100vh;
     grid-template-rows: repeat(8,1fr);
     grid-template-columns: 1fr;
+    grid-gap:20px;
 }
 
 .grid{
@@ -146,6 +147,7 @@ main{
     grid-template-rows: 50px 50px 50px 200px 1fr;
     grid-template-columns: repeat(2,1fr);
     margin:50px;
+    grid-gap:0px;
 }
 
 .me{
@@ -182,9 +184,7 @@ main{
 }
 
 .titlelink{
-    /* position:relative;
-    left:50px;
-    top: 15px; */
+    
     justify-content:left;
     
 }
