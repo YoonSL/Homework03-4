@@ -167,7 +167,7 @@ a{
 .me img{
     transform: rotate(270deg);
     position:relative;
-    top: 420px;
+    top: 440px;
     left: 900px;
     z-index: 1;
     border: solid 3px;
